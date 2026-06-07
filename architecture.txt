@@ -1,0 +1,9 @@
+                MASTER
+                  |
+        -----------------------
+        |          |          |
+     MEMORY      FIFO       LIFO
+     SLAVE       SLAVE      SLAVE
+        \          |          /
+           ===== I2C BUS =====
+         (SCL + SDA Simulation)
